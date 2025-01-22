@@ -53,50 +53,23 @@ Install the required dependencies using the following command:
 pip install -r requirements.txt
 ```
 
-### Key Dependencies
-- TensorFlow
-- Keras
-- NumPy
-- OpenCV
-- Matplotlib
-
----
-
 ## How to Use
 
 ### Step 1: Clone the Repository
 ```bash
-git clone https://github.com/your-username/snn-facial-recognition.git
-cd snn-facial-recognition
+git clone https://github.com/akhandpratap18/facial-recognition-system.git
+cd facial-recognition-system
 ```
 
 ### Step 2: Place Your Dataset
 Place your prepared dataset in the `dataset/` directory as described above.
 
-### Step 3: Train the Model
-Run the training script to train the Siamese Neural Network and save the trained model:
-```bash
-python train_snn.py
-```
 
-### Step 4: Real-time Recognition
-Use the real-time recognition script to test the model with new images:
-```bash
-python realtime_recognition.py
-```
-
-### Step 5: Verify Results
+### Step 3: Verify Results
 Upload facial images or use a webcam to test the system's accuracy in recognizing individuals.
 
 ---
 
-## File Structure
-- `train_snn.py`: Script for training the Siamese Neural Network.
-- `realtime_recognition.py`: Script for real-time facial recognition using the trained model.
-- `snn_model.h5`: Saved model file after training.
-- `requirements.txt`: Dependencies for the project.
-
----
 
 ## Contributions
 Feel free to contribute to this project by submitting issues or pull requests. Suggestions for improving the model or optimizing the pipeline are always welcome!
